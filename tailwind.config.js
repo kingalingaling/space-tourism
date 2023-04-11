@@ -2,6 +2,14 @@
 module.exports = {
   content: ["./src/pages/*.{html,js}"],
   theme: {
+    screens: {
+      xs: "375",
+      sm: "414",
+      md: "768",
+      lg: "1024",
+      xl: "1280",
+      '2xl': "1440"
+    },
     colors: {
       transparent: 'transparent',
       'white': "hsl(0, 0%, 100%)",
@@ -20,6 +28,9 @@ module.exports = {
       fontFamily: {
         'bellefair-regular': "Bellefair Regular",
         'barlow-condensed': "Barlow Condensed Regular",
+      },
+      backgroundImage: {
+        'crew-lg': "url('/src/assets/images/crew-bg-lg.jpg')",
       }
     },
     letterSpacing: {

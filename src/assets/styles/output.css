@@ -516,7 +516,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.bg-crew-lg {
+  background-image: url('/src/assets/images/crew-bg-lg.jpg');
+}
+
 .text-\[\#089067\] {
   --tw-text-opacity: 1;
   color: rgb(8 144 103 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
