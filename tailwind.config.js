@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/pages/*.{html,js}"],
+  content: [
+    "./src/*.{html,ts,tsx,js,jsx}",
+  ],
   theme: {
     screens: {
       xs: "375",
@@ -31,6 +33,17 @@ module.exports = {
       },
       backgroundImage: {
         'crew-lg': "url('/src/assets/images/crew-bg-lg.jpg')",
+        'crew-md': "url('/src/assets/images/crew-bg-md.jpg')",
+        'crew-sm': "url('/src/assets/images/crew-bg-sm.jpg')",
+        'dest-lg': "url('/src/assets/images/destination-bg-lg.jpg')",
+        'dest-md': "url('/src/assets/images/destination-bg-md.jpg')",
+        'dest-sm': "url('/src/assets/images/destination-bg-lg.jpg')",
+        'home-lg': "url('/src/assets/images/home-bg-lg.jpg')",
+        'home-md': "url('/src/assets/images/home-bg-md.jpg')",
+        'home-sm': "url('/src/assets/images/home-bg-sm.jpg')",
+        'tech-lg': "url('/src/assets/images/technology-bg-lg.jpg')",
+        'tech-md': "url('/src/assets/images/technology-bg-md.jpg')",
+        'tech-sm': "url('/src/assets/images/technology-bg-sm.jpg')",
       }
     },
     letterSpacing: {
@@ -52,3 +65,5 @@ module.exports = {
 // --sub-head-2: font-barlow-condensed, text-sm, tracking-slimmer, text-white
 // --nav-text: font-barlow-condensed, text-base, tracking-slim, text-white
 // --body-text: font-barlow-condensed, text-base, tracking-slim, text-white
+
+
