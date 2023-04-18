@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/*.{html,ts,tsx,js,jsx}",
+    "./src/**/*.{html,ts,tsx,js,jsx}",
   ],
   theme: {
     screens: {
@@ -47,13 +47,13 @@ module.exports = {
       }
     },
     letterSpacing: {
-      "slimer": '0.14em',
+      "slimmer": '0.14em',
       "slim": '0.16em',
       widest: '0.29em',
-    }
+    },
   },
   plugins: [],
-}
+};
 
 // Typography
 // --head-1: font-bellefair-regular, text-head-1, text-white
