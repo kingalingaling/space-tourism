@@ -1,23 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "index.html",
     "./src/**/*.{html,ts,tsx,js,jsx}",
   ],
   theme: {
     screens: {
-      xs: "375",
-      sm: "414",
-      md: "768",
-      lg: "1024",
-      xl: "1280",
-      '2xl': "1440"
-    },
-    colors: {
-      transparent: 'transparent',
-      'white': "hsl(0, 0%, 100%)",
-      'grey': "hsl(0, 0%, 60%)",
-      'black': "hsl(230, 35%, 7%)",
-      'light-blue': "hsl(231, 77%, 90%)"
+      xs: "375px",
+      sm: "414px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      '2xl': "1440px"
     },
     extend: {
       fontSize: {
@@ -26,6 +20,13 @@ module.exports = {
         'head-3': "56px",
         'head-4': "32px",
         'head-5': "28px",
+      },
+      colors: {
+        transparent: 'transparent',
+        'white': "hsl(0, 0%, 100%)",
+        'grey': "hsl(0, 0%, 60%)",
+        'black': "hsl(230, 35%, 7%)",
+        'light-blue': "hsl(231, 77%, 90%)"
       },
       fontFamily: {
         'bellefair-regular': "Bellefair Regular",
@@ -53,7 +54,7 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
 
 // Typography
 // --head-1: font-bellefair-regular, text-head-1, text-white
@@ -65,5 +66,3 @@ module.exports = {
 // --sub-head-2: font-barlow-condensed, text-sm, tracking-slimmer, text-white
 // --nav-text: font-barlow-condensed, text-base, tracking-slim, text-white
 // --body-text: font-barlow-condensed, text-base, tracking-slim, text-white
-
-
