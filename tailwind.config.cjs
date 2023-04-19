@@ -29,8 +29,8 @@ module.exports = {
         'light-blue': "hsl(231, 77%, 90%)"
       },
       fontFamily: {
-        'bellefair-regular': "Bellefair Regular",
-        'barlow-condensed': "Barlow Condensed Regular",
+        'bellefair-regular': ["Bellefair-Regular"],
+        'barlow-condensed': ["BarlowCondensed-Regular"],
       },
       backgroundImage: {
         'crew-lg': "url('/src/assets/images/crew-bg-lg.jpg')",
