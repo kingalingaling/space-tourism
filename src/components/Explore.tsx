@@ -15,7 +15,7 @@ const Explore = () => {
           experience!
         </div>
       </div>
-      <div className="mt-16 flex justify-center">
+      <div className="my-10 flex justify-center">
         <button className="h-44 w-44 rounded-full bg-white text-2xl text-black hover:bg-black hover:text-white">
           EXPLORE
         </button>
