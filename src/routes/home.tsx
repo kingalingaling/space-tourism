@@ -1,8 +1,7 @@
-// import {} from 'react-router';
-import Explore from './components/explore';
-import Header from './components/header';
+import Explore from '../components/explore';
+import Header from '../components/header';
 
-function App() {
+function Home() {
 
   return (
     <section className='flex flex-col justify-center items-center bg-home-sm md:bg-home-md lg:bg-home-lg bg-no-repeat bg-cover text-[#fff] w-full h-full font-bellefair-regular'>
@@ -13,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
