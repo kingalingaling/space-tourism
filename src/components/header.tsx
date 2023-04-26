@@ -10,6 +10,10 @@ import MobileMenu from './mobile-menu';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
 
+  const onSetIsOpen = (newIsOpen: any) => {
+    setIsOpen(newIsOpen)
+  }
+
   return (
     <>
       <nav className="flex w-full justify-between sm:pl-9 pt-5 md:pt-0 lg:pt-5">
@@ -43,7 +47,7 @@ const Header = () => {
         </div>
       </nav>
 
-      <MobileMenu show={isOpen}/>
+      <MobileMenu show={isOpen} onSetIsOpen={onSetIsOpen} />
     </>
   );
 };

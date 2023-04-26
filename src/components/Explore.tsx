@@ -1,6 +1,6 @@
 const Explore = () => {
   return (
-    <section className="mt-52 flex flex-col items-center justify-center p-5 md:w-1/2 lg:w-full lg:flex-row lg:justify-around lg:px-44">
+    <section className="mt-9 sm:mt-16 md:mt-52 flex flex-col items-center justify-center p-5 md:w-1/2 lg:w-full lg:flex-row lg:justify-around lg:px-44">
       <div className="text-left lg:w-1/3">
         <div className="flex flex-col items-center uppercase lg:items-start">
           <p className="text-sm tracking-slim lg:text-left">So, you want to travel to</p>
