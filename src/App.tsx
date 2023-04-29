@@ -1,14 +1,11 @@
 // import {} from 'react-router';
-import Explore from './components/explore';
-import Header from './components/header';
+import { RouterProvider } from 'react-router-dom'
+import router from './routing'
 
 function App() {
 
   return (
-    <section className='flex flex-col justify-center items-center bg-home-sm md:bg-home-md lg:bg-home-lg bg-no-repeat bg-cover text-[#fff] w-full h-full font-bellefair-regular'>
-      <Header />
-      <Explore />
-    </section>
+    <RouterProvider router={router} />
     // <h1 className="text-[#54637A] text-[4rem]">Hello world</h1>
   )
 }
