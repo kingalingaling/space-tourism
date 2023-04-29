@@ -18,8 +18,8 @@ const Explore = () => {
         </div>
       </div>
       <div className="my-10 flex items-center justify-center">
-        <div className="explore-parent z-0 flex h-64 w-64 items-center justify-center rounded-full">
-          <button className="explore z-11 absolute h-44 w-44 rounded-full bg-white text-2xl text-black">
+        <div className="explore-parent z-10 flex h-64 w-64 items-center justify-center rounded-full">
+          <button className="explore z-10 absolute h-44 w-44 rounded-full bg-white text-2xl text-black">
             EXPLORE
           </button>
         </div>
