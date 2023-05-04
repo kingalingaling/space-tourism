@@ -1,6 +1,10 @@
+import { useState } from 'react';
 import Europa from "../assets/images/destination/europa.png";
+import { bodies } from "../data/extracts";
 
 const Dest_details = () => {
+  const [active, setActive] = useState<number>(bodies[0].id);
+
   return (
     <section className="mt-5 flex flex-col items-center justify-center px-5 sm:mt-16 md:mt-5 md:w-2/3 lg:w-full lg:flex-row lg:justify-around lg:px-44">
       <div className="flex flex-col items-center lg:items-start lg:w-1/2">
@@ -15,22 +19,15 @@ const Dest_details = () => {
       <div className="lg:w-2/5 lg:pl-6 lg:flex lg:flex-col lg:items-start">
         <div>
           <ul className="flex items-center justify-center text-xs uppercase tracking-slimmer">
-            <li className="mx-1 flex flex-col items-center">
-              Moon
-              <div className="mt-1 h-0.5 w-7"></div>
-            </li>
-            <li className="mx-1 flex flex-col items-center">
-              Mars
-              <div className="mt-1 h-0.5 w-7"></div>
-            </li>
-            <li className="mx-1 flex flex-col items-center">
-              Europa
-              <div className="mt-1 h-0.5 w-7 bg-white"></div>
-            </li>
-            <li className="mx-1 flex flex-col items-center">
-              Titan
-              <div className="mt-1 h-0.5 w-7"></div>
-            </li>
+            {
+              bodies.map(i => (
+                <li className="mx-1 flex flex-col items-center" key={i.id} onClick={() => setActive(i.id)}>
+                  {i.location}
+                  <div className={`${active == i.id ? "bg-white": ""} mt-1 h-0.5 w-7`}></div>
+                  <div className="mt-1 h-0.5 w-7"></div> 
+                </li>
+              ))
+            }
           </ul>
         </div>
         <div className="mt-9 flex flex-col text-center">
@@ -41,7 +38,7 @@ const Dest_details = () => {
           winter lover's dream. With an icy surface, it's perfect for a bit of
           ice skating, curling, hockey, or simple relaxation in your snug
           wintery cabin.
-          <hr className="mb-9 mt-9 h-0.5 w-full md:mb-3" />
+          <span className="mb-9 mt-9 h-0.5 w-full md:mb-3" />
         </p>
         
         <div className="flex flex-col items-center md:flex-row md:justify-center">

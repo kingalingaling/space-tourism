@@ -1,6 +1,7 @@
 import { useState } from 'react' //modular import
 // import React from 'react' //named import
 
+import { links } from "../data/extracts";
 
 import LogoIcon from "../assets/images/icons/logo.svg";
 import MenuIcon from "../assets/images/icons/menu.svg";
@@ -26,18 +27,13 @@ const Header = () => {
         </div>
 
         <ul className="z-0 hidden md:flex text-xs flex-row justify-center items-center bg-white bg-opacity-5 uppercase tracking-slimmer backdrop-blur-lg backdrop-filter h-20 lg:h-14 w-3/5 pr-3">
-          <li className="mx-5 ">
-            <span className="pr-3 font-semibold hidden lg:inline">00</span>Home
-          </li>
-          <li className="mx-5">
-            <span className="pr-3 font-semibold hidden lg:inline">01</span>Destination
-          </li>
-          <li className="mx-5">
-            <span className="pr-3 font-semibold hidden lg:inline">02</span>Crew
-          </li>
-          <li className="mx-5">
-            <span className="pr-3 font-semibold hidden lg:inline">03</span>Technology
-          </li>
+          {links.map((el) => (
+            <li className="mx-5" key={el.id}>
+              <a href={el.url}>
+                <i className="pr-3 font-semibold hidden lg:inline">{el.id}</i>{el.page}
+              </a>
+            </li>
+          ))}
         </ul>
 
         <div className="flex pr-5 md:hidden">

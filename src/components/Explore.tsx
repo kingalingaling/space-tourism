@@ -1,3 +1,4 @@
+
 const Explore = () => {
   return (
     <section className="mt-9 flex flex-col items-center justify-center p-5 sm:mt-16 md:mt-52 md:w-1/2 lg:w-full lg:flex-row lg:justify-around lg:px-44">

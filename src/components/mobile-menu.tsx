@@ -1,13 +1,8 @@
 // import { useState } from "react";
 import CloseIcon from "../assets/images/icons/close.svg";
+import { links } from "../data/extracts";
 
 const MobileMenu = (props: any) => {
-  const links = [
-    { id: "00", url: "/", page: "Home" },
-    { id: "01", url: "/destination", page: "Destination" },
-    { id: "02", url: "/crew", page: "Crew" },
-    { id: "03", url: "/technology", page: "Technology" }
-  ]
 
   const handleChangeState = () => {
     props.onSetIsOpen(false)
