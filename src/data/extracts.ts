@@ -10,9 +10,9 @@ export const links: NavArray = [
     { id: "03", url: "/technology", page: "Technology" }
 ]
 
-export const bodies: Array<destDetails> = [
-    { id: Number(Math.random().toFixed(2)), location: "Moon" },
-    { id: Number(Math.random().toFixed(2)), location: "Mars" },
-    { id: Number(Math.random().toFixed(2)), location:  "Europa" },
-    { id: Number(Math.random().toFixed(2)), location: "Titan" },
-]
+// export const bodies: Array<destDetails> = [
+//     { id: Number(Math.random().toFixed(2)), location: "Moon" },
+//     { id: Number(Math.random().toFixed(2)), location: "Mars" },
+//     { id: Number(Math.random().toFixed(2)), location:  "Europa" },
+//     { id: Number(Math.random().toFixed(2)), location: "Titan" },
+// ]

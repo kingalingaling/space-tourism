@@ -1,6 +1,10 @@
 export interface destDetails {
     id: number,
-    location: string
+    name: string,
+    image: string,
+    description: string,
+    distance: string,
+    travel: string
 }
 
 export type NavArray = Array<NavTypes>

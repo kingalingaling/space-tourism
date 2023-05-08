@@ -4,7 +4,7 @@ import Header from '../components/header';
 function Home() {
 
   return (
-    <section className='flex flex-col justify-center items-center bg-home-sm md:bg-home-md lg:bg-home-lg bg-no-repeat bg-cover text-[#fff] w-full h-full font-bellefair-regular'>
+    <section className='flex flex-col justify-center items-center bg-home-sm md:bg-home-md lg:bg-home-lg bg-no-repeat bg-cover text-[#fff] w-full h-full lg:h-screen font-bellefair-regular'>
       <Header />
       <Explore />
     </section>

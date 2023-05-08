@@ -3,8 +3,8 @@ import { useState } from 'react' //modular import
 
 import { links } from "../data/extracts";
 
-import LogoIcon from "../assets/images/icons/logo.svg";
-import MenuIcon from "../assets/images/icons/menu.svg";
+import LogoIcon from "/assets/images/icons/logo.svg";
+import MenuIcon from "/assets/images/icons/menu.svg";
 
 import MobileMenu from './mobile-menu';
 
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="flex w-full justify-between sm:pl-9 pt-5 md:pt-0 lg:pt-5">
+      <nav className="flex w-full justify-between sm:pl-9 pt-5 md:pt-0 lg:pt-5 font-bellefair-regular">
         <div className="mr-6 flex flex-shrink-0 items-center text-white pl-5">
           <img src={LogoIcon} className="" />
         </div>

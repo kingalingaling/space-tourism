@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import CloseIcon from "../assets/images/icons/close.svg";
+import CloseIcon from "/assets/images/icons/close.svg";
 import { links } from "../data/extracts";
 
 const MobileMenu = (props: any) => {

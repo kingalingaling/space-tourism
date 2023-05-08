@@ -6,7 +6,7 @@
     @font-face {
         font-family: BarlowCondensed-Regular;
         font-weight: 400;
-        src: url("./assets/fonts/BarlowCondensed-Regular.ttf") format('ttf');
+        src: local('barlow-condensed') url("/assets/fonts/BarlowCondensed-Regular.ttf") format('ttf');
     }
 }
 
@@ -14,7 +14,7 @@
     @font-face {
         font-family: Bellefair-Regular;
         font-weight: 400;
-        src: url("./assets/fonts/Bellefair-Regular.ttf") format('ttf');
+        src: local('bellefair-regular') url("/assets/fonts/Bellefair-Regular.ttf") format('ttf');
     }
 }
 
