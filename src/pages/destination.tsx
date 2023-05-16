@@ -1,5 +1,5 @@
-import Header from "../components/header"
-import Dest_details from "../components/dest_details"
+import Header from "../components/Header"
+import Dest_details from "../components/DestDetails"
 
 function Destination() {
 

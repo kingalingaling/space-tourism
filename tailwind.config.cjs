@@ -13,6 +13,10 @@ module.exports = {
       xl: "1280px",
       '2xl': "1440px"
     },
+    fontFamily: {
+      'bellefair': ['"Bellefair"'],
+      'barlow-condensed': ["Barlow Condensed"],
+    },
     extend: {
       fontSize: {
         'head-1': "150px",
@@ -28,10 +32,7 @@ module.exports = {
         'black': "hsl(230, 35%, 7%)",
         'light-blue': "hsl(231, 77%, 90%)"
       },
-      fontFamily: {
-        'bellefair-regular': ["Bellefair-Regular"],
-        'barlow-condensed': ["BarlowCondensed-Regular"],
-      },
+      
       backgroundImage: {
         'crew-lg': "url('/assets/images/crew-bg-lg.jpg')",
         'crew-md': "url('/assets/images/crew-bg-md.jpg')",

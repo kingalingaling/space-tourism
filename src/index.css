@@ -1,22 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
     @font-face {
-        font-family: BarlowCondensed-Regular;
+        font-family: "Barlow Condensed";
         font-weight: 400;
-        src: local('barlow-condensed') url("/assets/fonts/BarlowCondensed-Regular.ttf") format('ttf');
-    }
-}
-
-@layer base {
+        src: local('barlow-condensed') url("./assets/fonts/BarlowCondensed-Regular.ttf") format('ttf');
+    } 
     @font-face {
-        font-family: Bellefair-Regular;
+        font-family: "Bellefair";
         font-weight: 400;
-        src: local('bellefair-regular') url("/assets/fonts/Bellefair-Regular.ttf") format('ttf');
+        src: local('bellefair') url("./assets/fonts/Bellefair-Regular.ttf") format('ttf');
     }
-}
+} */
 
 div.explore-parent:hover {
     background: hsla(0, 100%, 100%, 0.2);

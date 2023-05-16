@@ -6,7 +6,7 @@ import { links } from "../data/extracts";
 import LogoIcon from "/assets/images/icons/logo.svg";
 import MenuIcon from "/assets/images/icons/menu.svg";
 
-import MobileMenu from './mobile-menu';
+import MobileMenu from './MobileMenu';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="flex w-full justify-between sm:pl-9 pt-5 md:pt-0 lg:pt-5 font-bellefair-regular">
+      <nav className="flex w-full font-barlow-condensed justify-between sm:pl-9 pt-5 md:pt-0 lg:pt-5">
         <div className="mr-6 flex flex-shrink-0 items-center text-white pl-5">
           <img src={LogoIcon} className="" />
         </div>
@@ -30,7 +30,7 @@ const Header = () => {
           {links.map((el) => (
             <li className="mx-5" key={el.id}>
               <a href={el.url}>
-                <i className="pr-3 font-semibold hidden lg:inline">{el.id}</i>{el.page}
+                <i className="pr-3 hidden lg:inline">{el.id}</i>{el.page}
               </a>
             </li>
           ))}

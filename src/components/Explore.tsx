@@ -7,7 +7,7 @@ const Explore = () => {
           <p className="text-sm tracking-slim lg:text-left">
             So, you want to travel to
           </p>
-          <span className="my-9 font-barlow-condensed text-8xl sm:text-9xl">
+          <span className="my-9 font-bellefair text-8xl sm:text-9xl">
             Space
           </span>
         </div>
