@@ -14,3 +14,11 @@ export interface NavTypes {
     url: string,
     page: string
 }
+
+export interface crewDetails {
+    id: number,
+    name: string,
+    image: string,
+    role: string,
+    bio: string
+}
