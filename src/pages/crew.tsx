@@ -1,5 +1,5 @@
-import Header from '../components/Header'
-import CrewDetails from '../components/CrewDetails'
+import Header from '../components/header'
+import CrewDetails from '../components/crew-details'
 
 function Crew() {
 

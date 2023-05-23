@@ -6,7 +6,7 @@ import { links } from "../data/extracts";
 import LogoIcon from "/assets/images/icons/logo.svg";
 import MenuIcon from "/assets/images/icons/menu.svg";
 
-import MobileMenu from './MobileMenu';
+import MobileMenu from './mobile-menu';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
